@@ -2,7 +2,7 @@
   "name": "restauranttemplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://esleytel22.github.io/rest-react",
+  "homepage": "https://github.com/esleytel22/rest-react",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
