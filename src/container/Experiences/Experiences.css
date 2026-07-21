@@ -1,0 +1,106 @@
+.app__experiences {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__experiences-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app__experiences-sub {
+    color: var(--color-grey);
+    margin-top: 1rem;
+}
+
+.app__experiences-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.app__experiences-card {
+    position: relative;
+    flex: 1;
+    min-width: 260px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem 2.5rem;
+    border: 1px solid var(--color-golden);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.app__experiences-card--featured {
+    border-width: 2px;
+    background: rgba(220, 202, 135, 0.06);
+}
+
+.app__experiences-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-golden);
+    color: var(--color-black);
+    padding: 0.15rem 1rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.app__experiences-card_name {
+    color: var(--color-golden);
+}
+
+.app__experiences-card_price {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 1rem 0 1.5rem;
+}
+
+.app__experiences-card_price span:first-child {
+    color: var(--color-golden);
+    font-size: 28px;
+    vertical-align: super;
+}
+
+.app__experiences-card_per {
+    color: var(--color-grey);
+    font-size: 14px;
+}
+
+.app__experiences-card_features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.app__experiences-card_features p {
+    color: var(--color-grey);
+}
+
+.app__experiences-card_btn {
+    display: inline-block;
+}
+
+@media screen and (max-width: 850px) {
+    .app__experiences-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app__experiences-card {
+        width: 100%;
+        max-width: 480px;
+    }
+}

@@ -1,0 +1,18 @@
+.video-window {
+  height: min(70vh, 640px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  border-block: 1px solid var(--line-soft);
+}
+
+.video-window__caption {
+  color: var(--bone);
+  padding: 0.6rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(13, 12, 10, 0.45);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}

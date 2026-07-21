@@ -1,0 +1,156 @@
+.app__bookevent {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__bookevent-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.app__bookevent-sub {
+    color: var(--color-grey);
+    max-width: 640px;
+    margin: 1rem auto 0;
+}
+
+.app__bookevent-form {
+    width: 100%;
+    max-width: 860px;
+    border: 1px solid var(--color-golden);
+    padding: 3rem 2.5rem;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.app__bookevent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+}
+
+.app__bookevent-grid--three {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.app__bookevent-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.app__bookevent-field label {
+    color: var(--color-golden);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.app__bookevent-field input,
+.app__bookevent-field select,
+.app__bookevent-field textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-gray);
+    color: var(--color-white);
+    font-family: var(--font-alt);
+    font-size: 15px;
+    padding: 0.6rem 0.25rem;
+    outline: none;
+}
+
+.app__bookevent-field input:focus,
+.app__bookevent-field select:focus,
+.app__bookevent-field textarea:focus {
+    border-bottom-color: var(--color-golden);
+}
+
+.app__bookevent-field select option {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.app__bookevent-field textarea {
+    min-height: 110px;
+    resize: vertical;
+    border: 1px solid var(--color-gray);
+    padding: 0.75rem;
+}
+
+.app__bookevent-field textarea:focus {
+    border-color: var(--color-golden);
+}
+
+.app__bookevent-input--err {
+    border-color: #b33 !important;
+    border-bottom-color: #b33 !important;
+}
+
+.app__bookevent-error {
+    color: #d98080;
+    font-family: var(--font-alt);
+    font-size: 13px;
+}
+
+.app__bookevent-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.app__bookevent-chip {
+    background: transparent;
+    border: 1px solid var(--color-gray);
+    color: var(--color-grey) !important;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    font-size: 13px !important;
+    transition: all 0.2s;
+}
+
+.app__bookevent-chip:hover {
+    border-color: var(--color-golden);
+    color: var(--color-golden) !important;
+}
+
+.app__bookevent-chip--active {
+    border-color: var(--color-golden);
+    background: rgba(220, 202, 135, 0.12);
+    color: var(--color-golden) !important;
+}
+
+.app__bookevent-submit {
+    gap: 1.5rem;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+
+.app__bookevent-required {
+    color: var(--color-gray);
+    font-size: 13px;
+}
+
+.app__bookevent-success {
+    flex-direction: column;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.app__bookevent-success_text {
+    color: var(--color-grey);
+    max-width: 560px;
+    margin: 1.5rem 0 2.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .app__bookevent-form {
+        padding: 2rem 1.5rem;
+    }
+
+    .app__bookevent-grid,
+    .app__bookevent-grid--three {
+        grid-template-columns: 1fr;
+    }
+}
