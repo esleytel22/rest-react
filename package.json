@@ -2,7 +2,7 @@
   "name": "restauranttemplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/esleytel22/rest-react",
+  "homepage": "https://www.esleytel.dev",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -12,12 +12,8 @@
     "react-dom": "^19.2.3",
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "web-vitals": "^2.1.4",
     "lenis": "^1.3.25"
-=======
-    "web-vitals": "^2.1.4"
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,8 +44,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
