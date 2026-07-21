@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import Lenis from 'lenis';
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
@@ -75,5 +76,26 @@ const App = () => {
     </div>
   );
 };
+=======
+
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Navbar } from './components';
+import './App.css';
+
+const App = () => (
+  <div>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer />
+  </div>
+);
+>>>>>>> c626e25925407ce0bddef18286228ff74d117307
 
 export default App;
