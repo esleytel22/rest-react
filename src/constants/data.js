@@ -7,20 +7,12 @@ const wines = [
     tags: 'AU | Bottle',
   },
   {
-<<<<<<< HEAD
     title: 'Catena Malbec',
-=======
-    title: 'Catena Malbee',
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
     price: '$59',
     tags: 'AU | Bottle',
   },
   {
-<<<<<<< HEAD
     title: 'La Vieille Rose',
-=======
-    title: 'La Vieillw Rose',
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
     price: '$44',
     tags: 'FR | 750 ml',
   },
@@ -38,11 +30,7 @@ const wines = [
 
 const cocktails = [
   {
-<<<<<<< HEAD
     title: 'Aperol Spritz',
-=======
-    title: 'Aperol Sprtiz',
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
@@ -91,10 +79,6 @@ const awards = [
   },
 ];
 
-<<<<<<< HEAD
 const data = { wines, cocktails, awards };
 
 export default data;
-=======
-export default { wines, cocktails, awards };
->>>>>>> c626e25925407ce0bddef18286228ff74d117307

@@ -21,11 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-<<<<<<< HEAD
 const images =  {
-=======
-export default {
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
   bg,
   chef,
   G,
@@ -49,8 +45,5 @@ export default {
   quote,
   gericht,
 };
-<<<<<<< HEAD
 
 export default images;
-=======
->>>>>>> c626e25925407ce0bddef18286228ff74d117307
